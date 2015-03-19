@@ -1,0 +1,140 @@
+/* CSS Document */
+
+body {
+  padding-top: 50px;
+}
+
+footer{
+	background-color:#368DB2;
+	padding-top:100px;
+	padding-bottom:10px;
+}
+
+#eSports{
+	background-color:#F1F1F1;
+}
+
+.jumbotron {
+	text-align:center;
+	background-image:url(../images/feature-imame.jpg);
+	color:white;
+
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Share Tech Mono', courier, serif;
+}
+
+.jumbotron h1 {
+	margin-top:0px;
+	margin-bottom:30px;
+}
+
+.jumbotron p {
+	margin-bottom:40px;
+	font-weight:100;
+}
+
+.jumbotron img{
+	padding-top:370px;
+	padding-bottom:50px;
+}
+
+.esportContent{
+	text-align:center;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+.purpose{
+	text-align:center;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+.purpose h1 {
+	font-family: 'Share Tech Mono', courier, serif;
+	text-transform:uppercase;
+	font-size:45px;
+}
+
+.esportContent h1{
+	font-family: 'Share Tech Mono', courier, serif;
+	text-transform:uppercase;
+	font-size:45px;
+}
+
+.col-md-4{
+	padding-bottom:25px;
+}
+
+.headerhr{
+	width:350px;
+}
+
+/* responsive styling */
+
+@media (max-width: 1199px) {
+	
+	.jumbotron {
+		background-repeat: no-repeat;
+		background-color:#020202;
+	}	
+
+	.jumbotron img {
+		padding-top:320px;
+		padding-bottom:0px;
+	}
+}
+
+@media (max-width: 991px) {
+	
+	.jumbotron {
+		background-repeat: no-repeat;
+		background-color:#020202;
+	}	
+
+	.jumbotron img {
+		padding-top:270px;
+		padding-bottom:70px;
+	}
+}
+
+@media (max-width: 767px) {
+	
+	.jumbotron {
+		background-repeat: no-repeat;
+		background-color:#020202;
+	}
+	
+	.jumbotron h1{
+		font-size:45px;
+	}
+
+	.jumbotron img {
+
+		padding-top:0px;
+		padding-bottom:280px;
+	}
+	
+	.jumbotron p {
+		font-size:15px;
+	}
+	
+	.btn-lg {
+		font-size:13px;
+	}
+	
+	.purpose p {
+		font-size:13px;
+	}
+	
+	.esportContent h1 {
+		font-size: 38px;
+	}
+	
+	.btn-default {
+		margin-top:6px;
+	}
+		
+}
